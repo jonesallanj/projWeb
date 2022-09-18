@@ -1,0 +1,72 @@
+header{
+    margin-top: 2px;
+    background-color: rgb(255, 140, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 260px;
+    font-size: 19px;
+}
+header img{
+    width: 130px;
+    height: auto;
+    border: 10px double white;
+}
+section#titulo{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(255, 140, 0);
+}
+section{ /*bloco das opcoes*/
+    padding-top: 9px;
+    height: 470px;
+    background-color: rgb(255, 140, 0);
+}
+section ul{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 420px;
+}
+section ul div h1{
+    font-size: 22px;
+}
+section ul div#experience{/*div experiencia*/
+    width: 330px;
+    height: 430px;
+    background-color: rgb(255, 140, 0);
+}
+section#info{
+    display: flex;
+    color: rgb(0, 0, 0);
+    height: 111px;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 140, 0);
+}
+section#info ul{
+    height: 70px;
+    align-items: center;
+}
+section#info ul li{
+    list-style: none;
+    width: 330px;
+    height: 30px;
+    align-items: center;
+}
+section#info h1{
+    display: flex;
+}
+footer h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+section#info a{
+    text-decoration: none;
+    color:black
+}
